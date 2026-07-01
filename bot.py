@@ -18,11 +18,11 @@ SMM_API_URL = "https://smmfurious.com/api/v2"
 SMM_API_KEY = "21a356d044975d8013d5fe0fda04891fb307d7ac"
 
 # --- SERVICE SETTINGS (FAST & CHEAP) ---
-# ID 26585: Telegram Post Views - Instant Start⚡ (₹1.80/1k)
+# ID 26585: Telegram Post Views - Instant Start⚡ (₹30/1k)
 SMM_SERVICE_ID = "26585" 
 
 # --- BUSINESS PRICING ---
-PRICE_PER_1000 = 5.0 # Selling price (100 views = ₹0.50)
+PRICE_PER_1000 = 5.0 # Selling price (100 views = ₹5)
 AUTO_VIEW_QTY = 100
 MIN_ORDER = 100
 
