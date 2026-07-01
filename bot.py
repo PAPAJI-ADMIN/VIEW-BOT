@@ -11,7 +11,7 @@ API_ID = int(os.getenv("API_ID", "30208136"))
 API_HASH = os.getenv("API_HASH", "8d13aabfe7e3b2c24ad507edb48f27a5")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8eeafab20782b8c9ac67c580c1d36c2c")
 ADMIN_ID = int(os.getenv("ADMIN_ID", "8211510972"))
-ADMIN_USERNAME = "@YourUsername"
+ADMIN_USERNAME = "@MRADMIN_3"
 
 # --- SMM PANEL SETTINGS (SMMFurious - UPI Supported) ---
 SMM_API_URL = "https://smmfurious.com/api/v2"
@@ -187,12 +187,12 @@ async def on_callback(event):
     elif data == "auto_setup":
         await event.respond(f"🤖 **Auto-View:** Add me as Admin & Forward any post.")
     elif data == "add_funds":
-        await event.respond(f"💳 **Add Funds:** Send ID `{uid}` to {@MRADMIN_3}.")
+        await event.respond(f"💳 **Add Funds:** Send ID `{uid}` to {ADMIN_USERNAME}.")
     elif data == "stats":
         await event.respond(f"📊 **STATS**\nID: `{uid}`\nBalance: `₹{user[1]:.2f}`\nOrders: `{user[3]}`")
     elif data == "history":
         await event.respond("📜 Use /start to refresh.")
-    elif data == "support": await event.respond(f"📞 Support: {@MRADMIN_3}")
+    elif data == "support": await event.respond(f"📞 Support: {ADMIN_USERNAME}")
     elif data == "admin_panel" and uid == ADMIN_ID:
         await event.respond(f"🛠 **ADMIN PANEL**\nUse `/addbal <id> <amount>`.")
 
