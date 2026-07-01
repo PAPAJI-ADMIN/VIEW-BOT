@@ -1,3 +1,5 @@
 telethon
-requests
+aiohttp
 aiosqlite
+requests
+
