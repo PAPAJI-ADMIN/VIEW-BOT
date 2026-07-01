@@ -10,9 +10,9 @@ from telethon import TelegramClient, events, Button
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
-API_ID = int(os.getenv("API_ID", "24802699"))
+API_ID = int(os.getenv("API_ID", "30208136"))
 API_HASH = os.getenv("API_HASH", "8d13aabfe7e3b2c24ad507edb48f27a5")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8984858421:AAEXIitPHROELbyiVK91x4SDnaBwdVlUYC8")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8eeafab20782b8c9ac67c580c1d36c2c")
 ADMIN_ID = int(os.getenv("ADMIN_ID", "8211510972"))
 
 # SMM Panel Config
