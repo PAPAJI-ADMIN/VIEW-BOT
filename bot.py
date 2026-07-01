@@ -187,12 +187,12 @@ async def on_callback(event):
     elif data == "auto_setup":
         await event.respond(f"🤖 **Auto-View:** Add me as Admin & Forward any post.")
     elif data == "add_funds":
-        await event.respond(f"💳 **Add Funds:** Send ID `{uid}` to {ADMIN_USERNAME}.")
+        await event.respond(f"💳 **Add Funds:** Send ID `{uid}` to {@MRADMIN_3}.")
     elif data == "stats":
         await event.respond(f"📊 **STATS**\nID: `{uid}`\nBalance: `₹{user[1]:.2f}`\nOrders: `{user[3]}`")
     elif data == "history":
         await event.respond("📜 Use /start to refresh.")
-    elif data == "support": await event.respond(f"📞 Support: {ADMIN_USERNAME}")
+    elif data == "support": await event.respond(f"📞 Support: {@MRADMIN_3}")
     elif data == "admin_panel" and uid == ADMIN_ID:
         await event.respond(f"🛠 **ADMIN PANEL**\nUse `/addbal <id> <amount>`.")
 
