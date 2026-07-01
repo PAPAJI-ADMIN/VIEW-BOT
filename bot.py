@@ -16,7 +16,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "8eeafab20782b8c9ac67c580c1d36c2c")
 ADMIN_ID = int(os.getenv("ADMIN_ID", "8211510972"))
 
 # SMM Panel Config
-SMM_API_URL = os.getenv("SMM_API_URL", "https://smmmain.com/api/v2")
+SMM_API_URL = os.getenv("SMM_API_URL", "https://finesmmpanel.com/api/v2")
 SMM_API_KEY = os.getenv("SMM_API_KEY", "YOUR_API_KEY")
 SMM_SERVICE_ID = os.getenv("SMM_SERVICE_ID", "77") # Service ID for views
 
