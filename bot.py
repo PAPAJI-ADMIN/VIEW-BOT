@@ -14,8 +14,8 @@ ADMIN_ID = int(os.getenv("ADMIN_ID", "8211510972"))
 ADMIN_USERNAME = "@MRADMIN_3"
 
 # --- SMM PANEL SETTINGS (SMMFurious - UPI Supported) ---
-SMM_API_URL = "https://smmfurious.com/api/v2"
-SMM_API_KEY = "21a356d044975d8013d5fe0fda04891fb307d7ac"
+SMM_API_URL = "https://smmgalaxy.com/"
+SMM_API_KEY = "faafafea5707e19ceffbcf9a415ebb79"
 
 # --- SERVICE SETTINGS (FAST & CHEAP) ---
 # ID 28108: Telegram Post Views - Instant Start⚡ (₹30/1k)
