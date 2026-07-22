@@ -18,8 +18,8 @@ SMM_API_URL = "https://smmgalaxy.com/"
 SMM_API_KEY = "faafafea5707e19ceffbcf9a415ebb79"
 
 # --- SERVICE SETTINGS (FAST & CHEAP) ---
-# ID 28108: Telegram Post Views - Instant Start⚡ (₹30/1k)
-SMM_SERVICE_ID = "28108" 
+# ID 14644: Telegram Post Views - Instant Start⚡ (₹30/1k)
+SMM_SERVICE_ID = "14644" 
 
 # --- BUSINESS PRICING ---
 PRICE_PER_1000 = 30.0 # Selling price (100 views = ₹5)
