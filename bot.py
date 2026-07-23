@@ -24,8 +24,8 @@ SMM_SERVICE_ID = "14644"
 
 # --- BUSINESS PRICING ---
 PRICE_PER_1000 = 30.0 # Your selling price (₹30 for 1000 views)
-AUTO_VIEW_QTY = 100
-MIN_ORDER = 100
+AUTO_VIEW_QTY = 60
+MIN_ORDER = 60
 
 # ==================== 🛠 SYSTEM INITIALIZATION 🛠 ====================
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
