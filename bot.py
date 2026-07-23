@@ -15,7 +15,7 @@ ADMIN_USERNAME = "@MRADMIN_3"
 
 # --- SMM PANEL SETTINGS (SMMFurious - UPI Supported) ---
 SMM_API_URL = "https://smmgalaxy.com/"
-SMM_API_KEY = "faafafea5707e19ceffbcf9a415ebb79"
+SMM_API_KEY = "df7666e0a2afd94643d90fb84cad3cbe"
 
 # --- SERVICE SETTINGS (FAST & CHEAP) ---
 # ID 14644: Telegram Post Views - Instant Start⚡ (₹30/1k)
